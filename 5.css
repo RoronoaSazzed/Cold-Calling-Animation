@@ -1,0 +1,77 @@
+/* User 5 */
+
+#u-5 {
+  transform: scale(0);
+  animation: u5 0.5s ease-out forwards;
+}
+
+@keyframes u5 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#c-5 {
+  stroke-dasharray: 361.7658386230469;
+  stroke-dashoffset: 361.7658386230469;
+  animation: c5 2s linear 1s forwards;
+}
+
+@keyframes c5 {
+  0% {
+    stroke-dashoffset: 361.7658386230469;
+  }
+
+  40%,
+  60% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: -361.7658386230469;
+  }
+}
+
+#c-5-top {
+  stroke-dasharray: 361.7658386230469;
+  stroke-dashoffset: 361.7658386230469;
+  animation: c5__top 2s linear 2s forwards;
+}
+
+@keyframes c5__top {
+  0% {
+    stroke-dashoffset: 361.7658386230469;
+  }
+
+  40%,
+  60% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: -361.7658386230469;
+  }
+}
+
+#su-5 {
+  transform: translateX(260px);
+  animation: su1 2s linear 3.5s forwards;
+}
+
+@keyframes su5 {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+
+  60% {
+    transform: translateX(100px) rotate(30deg);
+  }
+
+  100% {
+    transform: translateX(260px) rotate(60deg);
+  }
+}

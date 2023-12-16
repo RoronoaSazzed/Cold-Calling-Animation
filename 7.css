@@ -1,0 +1,77 @@
+/* User 7 */
+
+#u-7 {
+  transform: scale(0);
+  animation: u7 0.5s ease-out forwards;
+}
+
+@keyframes u7 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#c-7 {
+  stroke-dasharray: 404.20391845703125;
+  stroke-dashoffset: 404.20391845703125;
+  animation: c7 2s linear 1s forwards;
+}
+
+@keyframes c7 {
+  0% {
+    stroke-dashoffset: 404.20391845703125;
+  }
+
+  40%,
+  60% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: -404.20391845703125;
+  }
+}
+
+#c-7-top {
+  stroke-dasharray: 404.20391845703125;
+  stroke-dashoffset: 404.20391845703125;
+  animation: c7__top 2s linear 2s forwards;
+}
+
+@keyframes c7__top {
+  0% {
+    stroke-dashoffset: 404.20391845703125;
+  }
+
+  40%,
+  60% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: -404.20391845703125;
+  }
+}
+
+#su-7 {
+  transform: translateX(260px);
+  animation: su7 2s linear 3.5s forwards;
+}
+
+@keyframes su7 {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+
+  60% {
+    transform: translateX(100px) rotate(30deg);
+  }
+
+  100% {
+    transform: translateX(260px) rotate(60deg);
+  }
+}
